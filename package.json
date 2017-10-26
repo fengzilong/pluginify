@@ -9,7 +9,11 @@
   "engines": {
     "node": ">=6.4.0"
   },
-  "scripts": {},
+  "scripts": {
+    "init-contributors": "all-contributors init",
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fengzilong/pluginify.git"
@@ -17,9 +21,11 @@
   "keywords": [
     "plugin"
   ],
-  "author": [{
-    "email": "fengzilong1992@gmail.com"
-  }],
+  "author": [
+    {
+      "email": "fengzilong1992@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fengzilong/pluginify/issues"
@@ -30,5 +36,8 @@
     "co": "^4.6.0",
     "dot-prop": "^4.1.1",
     "ora": "^1.2.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^4.5.1"
   }
 }
