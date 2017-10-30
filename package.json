@@ -35,6 +35,7 @@
     "@foxman/helpers": "^1.2.2",
     "co": "^4.6.0",
     "dot-prop": "^4.1.1",
+    "mkdirp": "^0.5.1",
     "ora": "^1.2.0"
   },
   "devDependencies": {
