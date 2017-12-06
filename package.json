@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/fengzilong/pluginify#readme",
   "dependencies": {
-    "@foxman/helpers": "^1.2.2",
+    "chalklog": "^1.1.2",
     "co": "^4.6.0",
     "dot-prop": "^4.1.1",
     "ora": "^1.2.0"
